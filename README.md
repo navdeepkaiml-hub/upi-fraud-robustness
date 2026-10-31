@@ -10,6 +10,10 @@ pressure, calibration, and deferring to humans when a model is uncertain.
 > conditions, not real UPI fraud rates. Single run (seed 0); test sets contain only 117 (pre-drift) and 413 (post-drift)
 > fraud cases, so differences of a few points are within noise.
 
+https://github.com/user-attachments/assets/dfbbe734-e179-4788-874a-fa2a78617356
+
+
+
 ## Setup
 - 60k transactions over 30 days, 2% fraud. Features: amount, hour, 1h velocity, new payee, device change, account age, amount ratio.
 - Temporal split: train days 0-14, validation 14-17, **pre-drift test** 17-20, **post-drift test** 20-30.
